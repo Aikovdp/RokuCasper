@@ -52,8 +52,8 @@ production stylesheet in assets/built/screen.css
      */
 
     /* Fonts */
-    --font-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-    --font-serif: Georgia, Times, serif;
+    --font-sans-serif: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    --font-serif: "Nunito", Georgia, Times, serif;
     --font-mono: Menlo, Courier, monospace;
 
 }
@@ -301,13 +301,19 @@ production stylesheet in assets/built/screen.css
 a.gh-head-button {
     display: block;
     padding: 8px 15px;
-    color: var(--color-darkgrey);
+    color: #fff;
     font-weight: 500;
     letter-spacing: -0.015em;
     font-size: 1.5rem;
     line-height: 1em;
-    background: #fff;
+    background: #5865F2;
     border-radius: 30px;
+    font-family: "Ginto Nord", Poppins, Roboto;
+    transition: background 0.2s ease-in-out;
+}
+
+a.gh-head-button:hover {
+    background: #7983F5;
 }
 
 

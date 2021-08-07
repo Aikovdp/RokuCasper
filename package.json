@@ -87,11 +87,13 @@
             "xl": {
                 "width": 2000
             }
-        }
+        },
+        "discord": "https://discord.gg/MF3u9xZ"
     },
     "renovate": {
         "extends": [
             "@tryghost:theme"
         ]
-    }
+    },
+    "dependencies": {}
 }
