@@ -117,4 +117,8 @@ into the {body} tag of the default.hbs template --}}
     </div>
 </aside>
 
+{{#contentFor "optional-footer"}}
+{{> "footer"}}
+{{/contentFor}}
+
 {{/post}}
