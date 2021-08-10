@@ -41,3 +41,7 @@ into the {body} of the default.hbs template --}}
 
     </div>
 </main>
+
+{{#contentFor "optional-footer"}}
+{{> "footer"}}
+{{/contentFor}}
