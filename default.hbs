@@ -51,12 +51,12 @@
                     {{/if}}
                 </div>
 
-                <a class="gh-head-button" href="{{@config.discord}}">Join us on Discord</a>
+                <a class="gh-head-button" href="https://store.rokucraft.com">Donation Store</a>
             </div>
         </nav>
     </header>
 
-    <main>
+    <main style="position: relative">
         {{!-- All other templates get inserted here, index.hbs, post.hbs, etc --}}
         {{{body}}}
     </main>
@@ -85,6 +85,8 @@ $(document).ready(function () {
     $(".gh-content").fitVids();
 });
 </script>
+
+{{> "fab"}}
 
 {{!-- Ghost outputs required functional scripts with this tag - it should always be the last thing before the closing body tag --}}
 {{ghost_foot}}

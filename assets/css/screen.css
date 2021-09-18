@@ -219,7 +219,7 @@ production stylesheet in assets/built/screen.css
 .gh-head-menu {
     display: flex;
     align-items: center;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .gh-head-menu .nav {
@@ -301,19 +301,19 @@ production stylesheet in assets/built/screen.css
 a.gh-head-button {
     display: block;
     padding: 8px 15px;
-    color: #fff;
-    font-weight: 500;
+    color: var(--color-darkgrey);
+    font-weight: 600;
     letter-spacing: -0.015em;
     font-size: 1.5rem;
     line-height: 1em;
-    background: #5865F2;
+    background-size: 200% auto;
+    background-image: linear-gradient(to right, #FFE239, #FECD0C, #FFE239);
     border-radius: 30px;
-    font-family: "Ginto Nord", Poppins, Roboto;
     transition: background 0.2s ease-in-out;
 }
 
 a.gh-head-button:hover {
-    background: #7983F5;
+    background-position: right center;
 }
 
 
@@ -713,7 +713,7 @@ body:not(.gh-head-open) .gh-burger:hover .gh-burger-inner::after {
     color: color-mod(var(--color-midgrey) l(-10%));
     font-size: 1.3rem;
     line-height: 1.4em;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .single-author {
@@ -1182,7 +1182,7 @@ Ghost editor. */
     width: 100%;
     color: #394047;
     font-size: 1.4rem;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .kg-bookmark-icon {
@@ -1440,7 +1440,7 @@ Ghost editor. */
     display: inline-block;
     padding: 10px 20px;
     color: #fff;
-    font-weight: 500;
+    font-weight: 600;
     background: var(--ghost-accent-color);
     border-radius: 5px;
 }
@@ -1692,7 +1692,7 @@ Ghost editor. */
 .site-footer .copyright a {
     color: #fff;
     letter-spacing: -0.015em;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .site-footer a {
